@@ -1,0 +1,69 @@
+<html>
+    <head>
+        <title>
+            Reg page
+        </title>
+<style>body
+{
+    background-size:cover;
+    background-color:rgb(10,234,80);
+}
+            /*  Smart phone      */
+            
+            @media screen and (min-width:320px )  {
+
+                   body {
+                        background-color: aqua;
+                   }
+            }
+/*  Tablet,ipad      */    
+            
+              @media Screen and (min-width:768px) and (max-width:1024px){
+                  body {
+                        background-color: rgb(177, 48, 48);
+                  }
+              }
+         
+            /* Desktops and Laptops asfsdf     */    
+            
+            @media Screen and (min-width:1224px) {
+                  body {
+                        background-color: rgb(48, 151, 8);
+                  }
+              }
+
+              /* Large Screens---------  */
+              @media Screen and (min-width:1824px) {
+                  body {
+                        background-color: rgb(101, 51, 208);
+                  }
+              }
+
+            form{
+                background-color: purple;
+            }
+        </style>
+    </head><body><form>
+   <h3>Registration form</h3>
+        name:<input type="text" name="uname" ><br>
+        password:<input type="text" name="pswd" ><br>
+        emailid:<input type="text" name="uname" ><br>
+        gender:<input type="radio" name="radio" value="m">male<br>
+        <input type="radio" name="radio" value="f">female<br>
+        contact:<input type="text" name="mobile">
+        <h3>educational qualifications</h3>
+        btech degree:<select>
+        <option>cse</option>
+        <option>ece</option>
+        <option>civil</option>
+        <option>csit</option>
+        <option>mech</option>
+        </select>
+        Hobbies:<input type="checkbox" name="uname">playing games<br>
+        <input type="checkbox" name="uname">hockey<br>
+        <form action="login.html">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </form>
+        </body>
+</html>
